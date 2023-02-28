@@ -1,0 +1,24 @@
+* {
+    font-family: Arial;
+}
+
+.centered {
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+  }
+  
+
+.selected {
+    stroke: orange;
+    stroke-width: 3px;
+    opacity: 1;
+  }
