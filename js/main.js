@@ -175,24 +175,6 @@ function bar() {
     })};
     
 
-// function updateChart(event) {
-//     let extent = event.selection;
-
-//     points1.classed("selected", function(d){ return isBrushed(extent, X_SCALE2(d.Sepal_Width) + MARGINS.left, Y_SCALE2(d.Petal_Width) + MARGINS.top)  } )
-//     points2.classed("selected", function(d){ return isBrushed(extent, X_SCALE2(d.Sepal_Width) + MARGINS.left, Y_SCALE2(d.Petal_Width) + MARGINS.top)  } )
-//     bars.classed("selected", function(d){ return isBrushed(extent, X_SCALE2(d.Sepal_Width) + MARGINS.left, Y_SCALE2(d.Petal_Width) + MARGINS.top)  } )
-
-// }
-
-// function isBrushed(brush_coords, cx, cy) {
-//     var x0 = brush_coords[0][0],
-//         x1 = brush_coords[1][0],
-//         y0 = brush_coords[0][1],
-//         y1 = brush_coords[1][1];
-//    return x0 <= cx && cx <= x1 && y0 <= cy && cy <= y1;    
-// }
-
-
 
 scatter()
 scatter2()
